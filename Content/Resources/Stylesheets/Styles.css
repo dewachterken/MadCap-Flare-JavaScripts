@@ -1,6 +1,8 @@
 /*<meta />*/
 
 @import url('../../dropdown-selector/Resources/Stylesheets/dropdown-selector_styles.css');
+@import url('../../radio-buttons-and-checkboxes/Resources/Stylesheets/checkbox_styles.css');
+@import url('../../radio-buttons-and-checkboxes/Resources/Stylesheets/radiobutton_styles.css');
 
 :root
 {

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <label class="checkbox">
+            <input value="version-selector.condition 1" type="checkbox" checked="checked" /> Column 1</label>
+        <label class="checkbox">
+            <input value="version-selector.condition 2" type="checkbox" checked="checked" /> Column 2</label>
+        <label class="checkbox">
+            <input value="version-selector.condition 3" type="checkbox" checked="checked" /> Column 3</label>
+    </body>
+</html>
