@@ -1,9 +1,0 @@
-= MadCap-Flare-Scripts
-This repo contains a MadCap Flare project that contains useful scripts to improve your documentation!
-
-== Structure
-* Each script should have its own subfolder in Content, containing all relevant supporting files (images, snippets, scripts, css, ...).
-* Each script should be documented in its subfolder, with one or more clear examples.
-
-== Adding and editing
-Feel free to download, add and edit scripts!
