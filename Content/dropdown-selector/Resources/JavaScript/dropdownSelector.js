@@ -11,7 +11,7 @@
     }
     return elementsWithAttribute;
 }
-function showHideVersion() {
+function dropdownSelector() {
     
     var select = document.getElementById('version-select'),
         options = [];
@@ -21,7 +21,6 @@ function showHideVersion() {
     }
     
     var selectedVersion = select.options[select.selectedIndex].value;
-
     var allElements = getElementsWithAttribute('data-mc-conditions');
     var filteredElements = [];
 	for (var i = 0; i < allElements.length; i++) {
@@ -41,10 +40,8 @@ function showHideVersion() {
             filteredElements[i].classList.remove("hidden");
         }
     }
-
-    localStorage[getLocalStorageKey()] = selectedVersion;
+	localStorage[getLocalStorageKey()] = selectedVersion;
 };
-
 function getLocalStorageKey() {
     var customKey = $('#version-select').data('version-select-key');
     if (customKey) {
@@ -62,6 +59,15 @@ $( document ).ready(function() {
     } else {
         $('#version-select').prop('selectedIndex', 0);
     }
-
-    showHideVersion();
+	// for each <COL> with 'data-mc-conditions', 
+	// copy that value in the <TD> and <TH> fields of that column
+    $('col[data-mc-conditions!=""][data-mc-conditions]').each(function() {
+        var childIndex = $(this).index() + 1;
+        var table = $(this).closest('table');
+        var value = $(this).data('mc-conditions');
+		$('th:nth-child(' + childIndex + '), td:nth-child(' + childIndex + ')', table).each(function() {
+            $(this).attr('data-mc-conditions', value);
+        });
+    });
+	dropdownSelector();
 });

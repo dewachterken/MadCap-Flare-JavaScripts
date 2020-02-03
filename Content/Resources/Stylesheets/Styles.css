@@ -1,7 +1,6 @@
-@import url('../../dropdown-filter/Resources/Stylesheets/dropdown_styles.css');
-
-
 /*<meta />*/
+
+@import url('../../dropdown-selector/Resources/Stylesheets/dropdown-selector_styles.css');
 
 :root
 {
@@ -808,3 +807,4 @@ p.footer-sub
 		text-decoration: none;
 	}
 }
+
