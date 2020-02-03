@@ -1,0 +1,67 @@
+/*<meta />*/
+
+/* Version filter styling*/
+
+.dropdown-hint
+{
+	color: #696969;
+	margin-bottom: 0px;
+}
+
+.styled-select.filter
+{
+	border: 1px solid #ccc;
+	font-size: 16px;
+	height: 34px;
+	width: 240px;
+}
+
+.styled-select.filter select
+{
+	font-size: 16px;
+	height: 34px;
+	width: 268px;
+}
+
+.semi-square
+{
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.styled-select
+{
+	height: 29px;
+	overflow: hidden;
+	width: 240px;
+	background-image: url('../Images/dropdown-filter.png');
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.styled-select select
+{
+	background: transparent;
+	border: none;
+	font-size: 14px;
+	height: 29px;
+	padding: 5px;
+	/* If you add too much padding here, the options won't show in IE */
+	width: 268px;
+}
+
+.rounded
+{
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+.semi-square
+{
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+

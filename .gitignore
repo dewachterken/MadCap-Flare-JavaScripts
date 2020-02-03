@@ -1,0 +1,32 @@
+#################################################################################
+# Placing a # in front of any of the items listed below (e.g., #analyzer) will  #
+# allow these items to be pushed to your Git repository. Keep in mind the more  #
+# files you push to your repository, the more your performance may be affected. #
+#################################################################################
+
+/Output
+/Analyzer
+/FileSync
+/Project/Users/
+.svn
+*.orig
+*.props
+**/Thumbs.db
+/Content/Resources/Stylesheets/testCollibra.css
+/Project/TOCs/test-install.fltoc
+*.flimpfl
+*.DS_Store
+*._*
+*.mclog
+
+#################################################################################
+# Add items to be ignored below                                                 #
+#################################################################################
+
+
+*_REMOTE_*.htm
+*_LOCAL_*.htm
+*_BASE_*.htm
+*_BACKUP_*.htm
+Content/Assets/Relations/dgc550_relations.htm
+Project/VariableSets/DGC_BASE_744.flvar

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div class="styled-select filter semi-square" MadCap:conditions="Default.ScreenOnly">
+            <select id="version-select" data-version-select-key="-localstorage" onchange="showHideVersion()">
+                <option value="" id="defaultVersionToSelect">Choose something...</option>
+                <option value="Dropdown Conditions/ConditionSet.Condition1">Option 1</option>
+                <option value="Dropdown Conditions/ConditionSet.Condition2">Option 2</option>
+                <option value="Dropdown Conditions/ConditionSet.Condition3">Option 3</option>
+                <option value="Dropdown Conditions/ConditionSet.Condition4">Option 4</option>
+            </select>
+        </div>
+       
+    </body>
+</html>
